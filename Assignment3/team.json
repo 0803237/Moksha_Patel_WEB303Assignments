@@ -1,4 +1,5 @@
- [
+ {
+	"members": [
 		{
 			"name": "Phil Aylesworth",
 			"position": "Vice President of Accounting",
@@ -26,3 +27,4 @@
 		}
 		
 	]
+}
