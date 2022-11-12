@@ -1,0 +1,43 @@
+#london-wrapper, #windsor-wrapper{
+    display: none;
+    height: 500px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#Images {
+  transition: 0.3s;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  background-color: rgba(204, 135, 135, 0.9); 
+}
+
+.modal-content {
+  text-align: center;
+  width: 800px;
+  height: 450px;
+}
+
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  left: 0px;
+  font-weight: bold;
+  color: #d7d5d5;
+  font-size: 43px;
+}
+
+.reference {
+    text-align: center;
+    font-size: large;
+}

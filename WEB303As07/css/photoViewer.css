@@ -1,0 +1,37 @@
+#photo-viewer {
+  display: none;
+}
+#photo-viewer .photo-box {
+  position: relative;
+  display: block;
+  width: 800px;
+  height: 450px;
+  margin: 20px;
+}
+#photo-viewer .photo-box.is-loading::after {
+  content: "Loading...";
+  position: absolute;
+  z-index: 10;
+  color: #000;
+  top: calc(50% - 20px);
+  left: calc(50% - 50px);
+}
+#photo-viewer .photo-box img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 2px;
+  width: 800px;
+  height: 450px;
+  border: 4px solid rgb(100, 96, 96);
+}
+#photo-viewer .thumbnail-anchor img {
+  width: 80px;
+  height: 45px;
+  padding: 2px;
+  border: 1px solid black;
+}
+#photo-viewer .thumbnail-anchor img.active {
+  display: table;
+  clear: both;
+}
