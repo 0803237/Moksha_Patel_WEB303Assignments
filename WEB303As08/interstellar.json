@@ -1,0 +1,40 @@
+[{
+    "ID_Number":"1",
+    "FirstName":"Joseph",
+    "LastName":"Cooper",
+    "Role":"protagonist",
+    "Genre":"Sci-Fi"
+},
+
+{
+    "ID_Number":"2",
+    "FirstName":"John",
+    "LastName":"Brand",
+    "Role":"Scientist",
+    "Genre":"Sci-Fi"
+},
+
+{
+    "ID_Number":"3",
+    "FirstName":"Nikolai",
+    "LastName":"Romilly",
+    "Role":"Astrophysicist",
+    "Genre":"Sci-Fi"
+},
+
+{
+    "ID_Number":"4",
+    "FirstName":"Tom",
+    "LastName":"Cooper",
+    "Role":"Pragmatic",
+    "Genre":"Sci-Fi"
+},
+
+{
+    "ID_Number":"5",
+    "FirstName":"Laura",
+    "LastName":"Miller",
+    "Role":"Scientist",
+    "Genre":"Sci-Fi"
+}
+]
