@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightcyan;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+  fieldset {
+    padding: 30px;
+    border: 2px solid black;
+}
+  

@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+    <h1>
+        Moksha Patel
+    </h1>
+    <form id="form" action="/register" method="post">
+        <fieldset>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" /><br><br>
+
+        <label for="pswd">Password:</label>
+        <input type="password" id="pswd" name="password1" /><br><br>
+        
+        <label for="ConPswd">Confirm your password:</label>
+        <input type="password" id="ConPswd" name="ConPswd" /><br><br>
+
+        <label for="countries">Country:</label>
+        <select id="countries" name="countries">
+            <option value="select">Select your country</option>
+        </select><br><br>
+
+        <label><input type="checkbox" value="accept" id="checkbox">I accept the terms of service</label><br><br>
+
+        <input type="submit" id="submit" value="submit" />
+    </fieldset>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>     
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    </div>
+</body>
+
+</html>
